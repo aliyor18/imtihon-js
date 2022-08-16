@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/bootstrap.min.css">
+  <title>Js-Imtihon</title>
+</head>
+<body>
+  <main class="main">
+    <section class="main__hero hero">
+      <div class="hero__container container">
+        <div class="hero__inner row mt-5 pb-5">
+          <h1 class="hero__title text-center fst-italic mb-5">Pitsa buyurtma qilish</h1>
+          <div class="hero__info col-7 h-100">
+            <form class="hero__form form" method="post" id="form" action="https://echo.htmlacademy.ru/courses">
+              <p class="form__text h4 mb-3">
+                Noni qanday bo'lsin?
+              </p>
+
+              <select class="form__select form-select w-50 mb-5" name="Noni">
+              </select>
+
+              <p class="form__text2 mb-3 pt-5 h4">
+                Kattaligi:
+              </p>
+
+              <div class="form__radio"></div>
+              
+              <p class="form__text3 h4 mb-4">
+                Ustiga nima solaylik?
+              </p>
+
+              <div class="form__checkboxs mb-4"></div>
+
+              <p class="form__text4 h4 mb-4">
+                Qo'shimchalar:
+              </p>
+
+              <div class="form__check"></div>
+            </form>
+          </div>
+
+          <div class="hero__content col-5 ps-5 border-start border-2 border-dark">
+            <div class="d-flex align-items-center mb-3">
+              <span class="h4 m-0 me-3">
+                Non:
+              </span>
+
+              <div class="hero__texts"></div>
+            </div>
+
+            <div class="d-flex align-items-center mb-3">
+              <span class="h4 m-0 me-3">
+                Kattaligi:
+              </span>
+
+              <div class="hero__texts-size d-inline"></div>
+            </div>
+
+            <span class="h4 d-inline-block mb-3">
+              Ustida:
+            </span>
+
+            <ol class="hero__texts-top list-unstyled" style="height: 150px;"></ol>
+
+            <span class="h4 d-block mb-3">
+              Qo'shimcha:
+            </span>
+
+            <ul class="hero__texts-plus list-unstyled"  style="height: 50px;"></ul>
+
+            <button class="form__button btn btn-danger" type="submit" form="form">
+              Buyurtma berish
+            </button>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="./js/script.js"></script>
+</body>
+</html>
+
